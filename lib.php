@@ -38,7 +38,7 @@ class repository_elevator extends repository
     private $fileTypes = null;
     private $manageURL = null;
     private $totalPages = 1;
-
+    public $setting = null; 
     private $fileExtension = ".jpg"; // this will probably be .jpg unless we lie to handle SCORM, in which case this will be overwritten
 
     public function __construct($repositoryid, $context = SYSCONTEXTID, $options = array()) {

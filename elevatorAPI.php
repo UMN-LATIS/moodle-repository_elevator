@@ -12,6 +12,7 @@ class elevatorAPI
     private $apiKey = null;
     private $baseURL = null;
     public $fileTypes = null;
+    private $apiSecret = null;
 
     function __construct($elevatorURL, $apiKey, $apiSecret, $userId=null)
     {
